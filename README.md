@@ -1,6 +1,7 @@
 # building-web-embedded-apps
 How to build nice embedded app for web
 
+
 DEPRECATED TAGS
 
 They are:
@@ -16,16 +17,22 @@ a {...}
 p {...}
 Css rules like above can add some styles to your elements.
 
+
 APPROVED TAGS
 
 Instead use tags:
+
 div - for block and flexbox elements
+
 span - for inline elements
 
 These tags usually are styled via classes and indexes. Therefore chances to get conflict with css are very low.
 
+
 TAGS REPLACEMENT
 
 h1, h2... - span
+
 a - span or div. Depends on you need either inline or block element. Moving to another page (url in href) can be implemented via java script code.
+
 p, button, ul, li - use div tag.
