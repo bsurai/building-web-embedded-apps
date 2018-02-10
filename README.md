@@ -9,6 +9,7 @@ They are:
 h1, h2, h3...
 a,
 p,
+i,
 button,
 ul, li.
 
@@ -31,7 +32,7 @@ These tags usually are styled via classes and indexes. Therefore chances to get 
 
 TAGS REPLACEMENT
 
-h1, h2... - span
+h1, h2..., i - span
 
 a - span or div. Depends on you need either inline or block element. Moving to another page (url in href) can be implemented via java script code.
 
