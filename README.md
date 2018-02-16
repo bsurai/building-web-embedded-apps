@@ -44,3 +44,14 @@ h1, h2..., i - span
 a - span or div. Depends on you need either inline or block element. Moving to another page (url in href) can be implemented via java script code.
 
 p, button, ul, li - use div tag.
+
+
+UNIQUE CLASSES
+
+Avoid regular class names like `panel`, `item`, `input` etc. Your class names should be really unique. There're few ways to get them:
+
+- Write prefixes manually. Something like `someprefix-panel` or `sp-panel`.
+
+- Use `css-in-js` packages. There`re a lot of them https://github.com/MicheleBertoli/css-in-js. Some of them (like `glamor` and `aphrodite`) creates really unique class names for you.
+
+- Use npm packages like `bem-cn` and `bem-cn-dashed-style`. They help you to define class name prefix and add prefix to class names automatically.
