@@ -1,6 +1,13 @@
 # building-web-embedded-apps
 How to build nice embedded app for web
 
+ROOT ELEMENT
+
+Html elements of your app can inherit some styles from host site. You should use `all: initial` rule to avoid it.
+#your-root-selector {
+  all: inherit;
+}
+
 
 DEPRECATED TAGS
 
