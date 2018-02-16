@@ -48,7 +48,7 @@ p, button, ul, li - use div tag.
 
 UNIQUE CLASSES
 
-Avoid regular class names like `panel`, `item`, `input` etc. Your class names should be really unique. There're few ways to get them:
+Avoid regular class names like `panel`, `item`, `input` etc. Your class names should be really unique. Also don't use class names are used in Bootstrap and other CSS frameworks. There're few ways to get them:
 
 - Write prefixes manually. Something like `someprefix-panel` or `sp-panel`.
 
